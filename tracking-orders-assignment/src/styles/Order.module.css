@@ -1,0 +1,29 @@
+.container {
+  width: 40em;
+
+  margin-top: 3em;
+  padding: 1em;
+
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+}
+
+.list_container {
+  width: 20em;
+
+  list-style: none;
+}
+
+.list_container li {
+  display: flex;
+  margin-top: 0.2em;
+}
+
+.list_container li span:first-child {
+  width: 15em;
+  font-weight: 600;
+}
+
+.list_container li span:last-child {
+  width: 20em;
+}
